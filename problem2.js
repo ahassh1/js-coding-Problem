@@ -1,16 +1,33 @@
-// You are given an array of numbers. Count how many times the a number is repeated in the array.
-
-// sample-input: numbers = [5,6,11,12,98, 5]
-
-// find: 5
-
-// output: 2
+const numbers = [1, 2, 3, 4, 5,6, 7];
+console.log(numbers);
+const reversed = numbers.reverse();
+console.log(reversed);
 
 
-// sample-input:
 
-// numbers = [5,6,11,12,98, 5]
 
-// find: 25
+// const numbers = [1, 2, 3, 4, 5,6, 7];
+// const rev_numbers = []
+// for(const num of numbers){
+//         console.log(num);
+//         rev_numbers.unshift(num)
+//     }
+//     console.log(rev_numbers)
+    
 
-// output: 0
+    
+    
+//     const numbers = [1, 2, 3, 4, 5,6, 7];
+//  const rev_numbers = [];
+// for (let i = 0; i < numbers.length; i++) {
+//         const num = numbers[i]; 
+//         rev_numbers.unshift(num)
+//     }
+    
+    
+    
+//    const numbers = [1, 2, 3, 4, 5,6, 7];
+// for (let i=numbers.length-1; i<numbers.length; i++){
+//     const num = numbers[i];
+//     rev_numbers.unshift(num)
+// }

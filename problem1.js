@@ -15,5 +15,5 @@ console.log(keys);
 
 for(const key of keys){
     // console.log(key)
-    console.log(key, ":",  mobile[key]);
+    console.log(key, ":",  mobile[key]); 
 }
