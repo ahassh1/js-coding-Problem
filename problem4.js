@@ -7,9 +7,6 @@
 
 function sumOfNumbers (numbers){
     let sum =0;
-    for (let number = 0; number < array.length; number++) {
-        const numbers = array[number];
-     }
      for(const number of numbers){
         console.log(number);
         sum = sum+number;
